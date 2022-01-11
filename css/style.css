@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background: #562eff;
+    padding: 0 100px;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 40px;
+    height: 50px;
+    /* width: 10%; */
+}
+
+nav .logo .logo-text {
+    padding-left: 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.nav-items ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items ul li a {
+    margin-left: 40px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-items ul li a .profile-pic {
+    /* width: 10%; */
+    height: 51px;
+    width: 51px;
+    padding: 20px 0;
+}
+
+
+/* top player css */
+
+.player {
+    background: #fff;
+    margin: 130PX 100px 0 100px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.player .container {
+    padding: 0 30px;
+}
+
+.player-heading {
+    padding: 33px 0;
+    text-align: left;
+    color: #562eff;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+/* .player-block {
+    display: flex;
+    flex-direction: column;
+} */
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item .player-img {
+    width: 15%;
+    padding-right: 20px;
+}
+
+.player-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+hr {
+    border: 1px solid #d1d1d1;
+}
+
+
+/* blog css */
+
+.blog {
+    margin: 0 100px;
+    background: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.blog .container {
+    padding: 0 30px;
+}
+
+.blog-heading {
+    color: #562eff;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    padding: 33px 0;
+}
+
+.item .blog-img {
+    width: 40%;
+    padding-right: 20px;
+}
+
+.details-heading {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.line-break {
+    display: block;
+}
+
+.blog-writer {
+    font-size: 16px;
+    font-weight: 400;
+    color: #562eff;
+    padding-top: 10px;
+}
+
+.blog-writer .colored-text {
+    color: #9F9F9F;
+}
+
+
+/* course css */
+
+.course {
+    margin: 30px 100px;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.course .container {
+    padding: 0 30px;
+}
+
+.course-heading {
+    color: #562eff;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    padding: 33px 0;
+}
+
+.course-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.course-item {
+    padding: 20px;
+    box-shadow: 2px 4px 15px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 4px 15px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 4px 15px -8px rgba(0, 0, 0, 0.75);
+    /* border: 1px solid red; */
+    margin: 0 1%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.course-title {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+
+.course-img {
+    width: 90%;
+}
+
+.course-creator {
+    color: #ED6B4F;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.rating-icon {
+    color: #FFC014;
+}
+
+.rating-icon .far,
+.rating-text {
+    color: #AEAEAE;
+}
+
+time .fa-clock {
+    padding-right: 10px;
+}
+
+.rating-text {
+    padding: 0 125px 0 5px;
+}
+
+.time {
+    color: #FF4A60;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    background: #FFE4E8;
+    padding: 5px 8px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}

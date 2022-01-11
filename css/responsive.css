@@ -1,0 +1,206 @@
+@media (max-width: 768px) {
+    header {
+        display: none;
+    }
+    .player-heading {
+        padding: 43px 0;
+        font-weight: 500;
+        font-size: 40px;
+        text-align: center;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .item .player-img {
+        width: 35%;
+        padding-right: 0;
+    }
+    .player .container {
+        padding: 0 60px;
+    }
+    .player-name {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+    /* blog */
+    .blog-heading {
+        padding: 43px 0;
+        font-weight: 500;
+        font-size: 40px;
+        text-align: center;
+    }
+    .blog .container {
+        padding: 0 60px;
+    }
+    .blog .item {
+        flex-direction: row;
+    }
+    .item .blog-img {
+        width: 50%;
+        padding-right: 30px;
+    }
+    .details-heading {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blog-writer {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    /* course */
+    .course .container {
+        padding: 0 60px;
+    }
+    .course-heading {
+        padding: 43px 0;
+        font-weight: 500;
+        font-size: 40px;
+        text-align: center;
+    }
+    .course-block {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    .course-item {
+        padding: 30px;
+        margin: 6% 0;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .course-title {
+        padding-top: 15px;
+    }
+    .course-creator {
+        padding-bottom: 15px;
+    }
+    .rating-text {
+        padding: 0 133px 0 5px;
+    }
+    .fa-clock {
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 540px) {
+    header {
+        display: none;
+    }
+    .player-heading {
+        padding: 43px 0;
+        font-size: 30px;
+        text-align: center;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .item .player-img {
+        width: 45%;
+        padding-right: 0;
+    }
+    .player .container {
+        padding: 0 60px;
+    }
+    .player-name {
+        font-size: 22px;
+    }
+    /* blog */
+    .blog-heading {
+        padding: 43px 0;
+        font-size: 30px;
+        text-align: center;
+    }
+    .blog .container {
+        padding: 0 60px;
+    }
+    .blog .item {
+        flex-direction: column;
+    }
+    .item .blog-img {
+        width: 90%;
+        padding-right: 0px;
+    }
+    .details-heading {
+        text-align: center;
+        font-size: 20px;
+        line-height: 35px;
+        padding-top: 30px;
+    }
+    .blog-writer {
+        text-align: center;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    /* course */
+    .course .container {
+        padding: 0 60px;
+    }
+    .course-heading {
+        padding: 43px 0;
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+    }
+    .course-block {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    .course-item {
+        text-align: center;
+        padding: 30px;
+        margin: 6% 0;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .course-title {
+        font-size: 16px;
+        padding-top: 15px;
+        line-height: 20px;
+    }
+    .course-creator {
+        padding-bottom: 15px;
+    }
+    .course-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .rating-text {
+        padding: 0 0px 0 0px;
+    }
+    .rating-icon {
+        padding-bottom: 10px;
+    }
+    .time {
+        margin-top: 10px;
+    }
+    .fa-clock {
+        padding-right: 10px;
+    }
+}
